@@ -7,7 +7,6 @@ The goal is to catch as many stars as you can to get the highest score until you
 
 This repository contains:
 - **stars**   - the project source which can be imported to Godot and compiled into an executable
-- **extras**  - contains the gameplay video and things irrelevant to the game's code
 
 Controls for the game are as follows:
 - WASD / Arrow keys   - player movement
