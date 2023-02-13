@@ -62,5 +62,5 @@ func is_initiator():
 
 func _on_Player_start_game() -> void:
 	if(initiator):
-		print("starting the bloody game")
+		# start the game
 		get_parent().get_node("Timer").start()

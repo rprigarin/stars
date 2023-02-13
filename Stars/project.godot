@@ -11,12 +11,17 @@ config_version=4
 [application]
 
 config/name="Stars"
-config/description="Player picks stuff and gains points for doing so."
+config/description="Player collects stars and gains points."
 run/main_scene="res://src/map.tscn"
 boot_splash/image="res://banner.png"
 boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0.0862745, 0.0980392, 0.176471, 1 )
 config/icon="res://assets/enemy_up.png"
 config/windows_native_icon="res://icon.ico"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
@@ -78,5 +83,6 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+misc/lossless_compression/force_png=true
 quality/shadows/filter_mode=0
 environment/default_environment="res://default_env.tres"
